@@ -67,7 +67,7 @@ final_vcf <- merge(x=almost_vcf, y=synonymous, by.x = c("CHROM_POS"), by.y = c("
 
 write.table(final_vcf, file = "all.frqs.BAD.allGERP.txt", quote = FALSE, sep = "\t", row.names = FALSE, col.names = TRUE)
 
-GERP06 <- subset(final_vcf, GERP > 0 | !is.na(GeneID) | !is.na(Synonymous))
+GERP06 <- subset(final_vcf, (GERP > -2 & GERP != 0) | !is.na(GeneID) | !is.na(Synonymous))
 write.table(GERP06, file = "GERP06_BAD.frqs.txt", quote = FALSE, sep = "\t", row.names = FALSE, col.names = TRUE)
 
 GERP_melt <- melt(GERP06, measure.vars = c("A1W", "AD1W", "AD3", "AD4", "AD5", "AD6",
