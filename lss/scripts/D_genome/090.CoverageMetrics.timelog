@@ -1,0 +1,50 @@
+cmdline: /opt/rit/spack-app/linux-rhel7-x86_64/gcc-4.8.5/sentieon-genomics-201808.01-opfuvzrkzgocfdrhlxyjhpl2fvmik6x5/libexec/driver -t 30 -r Ghirsutum_458_v1.0.26chr.fa -i 090.realign.bam --algo CoverageMetrics --omit_base_output 090.Coverage.metric
+This software is licensed to baber@iastate.edu by Sentieon Inc.
+progress 5% @14:44000001, elapsed 9.9s, est remaining 187.7s, peak mem 195MB, user 169.9s, sys 16.8s, output queue size 38
+progress 10% @15:20000001, elapsed 17.9s, est remaining 161.2s, peak mem 232MB, user 367.7s, sys 39.2s, output queue size 80
+progress 15% @15:58000001, elapsed 25.9s, est remaining 146.8s, peak mem 232MB, user 534.9s, sys 61.9s, output queue size 121
+progress 20% @16:30000001, elapsed 33.6s, est remaining 134.2s, peak mem 232MB, user 719.3s, sys 86.1s, output queue size 164
+progress 25% @17:2000001, elapsed 39.9s, est remaining 119.7s, peak mem 295MB, user 904.1s, sys 109.6s, output queue size 205
+progress 30% @18:4000001, elapsed 51.9s, est remaining 121.2s, peak mem 324MB, user 1125.9s, sys 132.9s, output queue size 247
+progress 35% @18:37000001, elapsed 58.4s, est remaining 108.4s, peak mem 324MB, user 1349.1s, sys 164.2s, output queue size 289
+progress 40% @19:26000001, elapsed 67.1s, est remaining 100.7s, peak mem 324MB, user 1577.8s, sys 190.9s, output queue size 40
+progress 45% @19:66000001, elapsed 75.3s, est remaining 92.0s, peak mem 324MB, user 1758.9s, sys 220.2s, output queue size 82
+progress 50% @20:30000001, elapsed 82.5s, est remaining 82.5s, peak mem 324MB, user 1956.6s, sys 249.7s, output queue size 124
+progress 55% @21:20000001, elapsed 89.8s, est remaining 73.5s, peak mem 324MB, user 2171.9s, sys 277.9s, output queue size 18
+progress 60% @21:61000001, elapsed 98.6s, est remaining 65.8s, peak mem 324MB, user 2347.2s, sys 302.7s, output queue size 45
+progress 65% @22:40000001, elapsed 107.3s, est remaining 57.8s, peak mem 338MB, user 2536.9s, sys 330.1s, output queue size 87
+progress 70% @23:25000001, elapsed 116.4s, est remaining 49.9s, peak mem 364MB, user 2779.9s, sys 366.3s, output queue size 103
+progress 75% @23:58000001, elapsed 123.4s, est remaining 41.1s, peak mem 364MB, user 2959.8s, sys 391.8s, output queue size 144
+progress 80% @24:26000001, elapsed 132.0s, est remaining 33.0s, peak mem 364MB, user 3210.6s, sys 430.4s, output queue size 10
+progress 85% @25:10000001, elapsed 140.6s, est remaining 24.8s, peak mem 364MB, user 3396.5s, sys 458.0s, output queue size 7
+progress 90% @25:45000001, elapsed 147.4s, est remaining 16.4s, peak mem 364MB, user 3575.9s, sys 478.4s, output queue size 48
+progress 95% @26:29000001, elapsed 154.8s, est remaining 8.1s, peak mem 364MB, user 3793.5s, sys 504.4s, output queue size 23
+progress 100% @26:64000001, elapsed 162.4s, est remaining 0.0s, peak mem 364MB, user 3957.2s, sys 526.2s, output queue size 0
+sw version: sentieon-genomics-201808.01
+os version: Linux 3.10.0-957.12.2.el7.x86_64
+cpu vendor: GenuineIntel
+ signature: 00050671
+  features: bfebfbff 7ff8f39f
+  extended: 1c0d23ab 00000001
+  amd bits: 2c100800 00000121
+     brand: Intel(R) Xeon Phi(TM) CPU 7250F @ 1.40GHz
+threads: 30 max 272
+algo: CoverageMetrics
+reads: 152803355
+input file size: 14760110465
+contig: 13 intervals 829485119 bases
+CoverageMetrics::merge: 835 calls 0.078 user 0.104 sys 0.326 real
+advance: 829493 calls 1980.642 user 471.063 sys 2692.465 real
+doc: 829493 calls 794.744 user 3.979 sys 801.728 real
+done: 1 calls 0.000 user 0.000 sys 1.085 real
+execute: 1 calls 0.000 user 0.000 sys 162.410 real
+fetch: 829493 calls 295.904 user 7.737 sys 310.397 real
+fetch_ref: 829493 calls 70.088 user 19.138 sys 142.247 real
+find_overlaps: 829493 calls 70.955 user 3.308 sys 75.680 real
+idle: 164 calls 0.021 user 0.005 sys 119.513 real
+init: 1 calls 0.000 user 0.005 sys 0.019 real
+overall: 382308352 mem 3957.630 user 526.475 sys 163.840 real
+
+real	2m44.296s
+user	65m57.819s
+sys	8m46.558s

@@ -1,0 +1,69 @@
+[bwa_index] Pack FASTA... 51.49 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=2682606252, availableWord=200757976
+[BWTIncConstructFromPacked] 10 iterations done. 99999996 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999996 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999996 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999996 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999996 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999996 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999996 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999996 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999996 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999996 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999996 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999996 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999996 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999996 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999996 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999996 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999996 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999996 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999996 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999996 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2095003532 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2179451164 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2254504444 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2321207964 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2380490252 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2433176460 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2480000108 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2521613068 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2558594732 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2591460076 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 2620666844 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 2646621868 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 2669686748 characters processed.
+[bwt_gen] Finished constructing BWT in 337 iterations.
+[bwa_index] 2830.08 seconds elapse.
+[bwa_index] Update BWT... 34.91 sec
+[bwa_index] Pack forward-only FASTA... 33.70 sec
+[bwa_index] Construct SA from BWT and Occ... 1108.10 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index Ghirsutum_458_v1.0.26chr.fa
+[main] Real time: 4074.570 sec; CPU: 4058.296 sec
+Submitted batch job 78631
+Submitted batch job 78632
+Submitted batch job 78633
+Submitted batch job 78634
+Submitted batch job 78635
+Submitted batch job 78636
+Submitted batch job 78637
+Submitted batch job 78638
+Submitted batch job 78639
+Submitted batch job 78640
+Submitted batch job 78641
+Submitted batch job 78642
+Submitted batch job 78643
+Submitted batch job 78644
+Submitted batch job 78645
+Submitted batch job 78646
+Submitted batch job 78647
+Submitted batch job 78648
+Submitted batch job 78649
+Submitted batch job 78650
+Submitted batch job 78651
+Submitted batch job 78652
+Submitted batch job 78653
+Submitted batch job 78654
+Submitted batch job 78655

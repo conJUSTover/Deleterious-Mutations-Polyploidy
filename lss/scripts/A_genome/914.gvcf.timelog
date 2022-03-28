@@ -1,0 +1,80 @@
+cmdline: /opt/rit/spack-app/linux-rhel7-x86_64/gcc-4.8.5/sentieon-genomics-201808.01-opfuvzrkzgocfdrhlxyjhpl2fvmik6x5/libexec/driver -t 30 -r Ghirsutum_458_v1.0.26chr.fa -i 914.realign.bam --algo Haplotyper 914.gVCF --emit_mode gvcf
+This software is licensed to baber@iastate.edu by Sentieon Inc.
+progress 5% @01:67000001, elapsed 938.1s, est remaining 17823.0s, peak mem 1570MB, user 10489.7s, sys 20.1s, output queue size 4
+progress 10% @02:39000001, elapsed 1508.5s, est remaining 13576.6s, peak mem 1662MB, user 20807.6s, sys 36.8s, output queue size 6
+progress 15% @03:8000001, elapsed 2238.8s, est remaining 12686.6s, peak mem 1990MB, user 31722.7s, sys 53.6s, output queue size 6
+progress 20% @03:71000001, elapsed 2970.2s, est remaining 11880.9s, peak mem 2108MB, user 42260.7s, sys 69.6s, output queue size 8
+progress 25% @04:35000001, elapsed 3823.7s, est remaining 11471.2s, peak mem 2108MB, user 53264.7s, sys 85.8s, output queue size 1
+progress 30% @05:20000001, elapsed 4330.9s, est remaining 10105.3s, peak mem 2161MB, user 61777.6s, sys 100.8s, output queue size 16
+progress 35% @05:94000001, elapsed 5049.3s, est remaining 9377.2s, peak mem 2181MB, user 71644.3s, sys 116.6s, output queue size 2
+progress 40% @06:49000001, elapsed 5760.8s, est remaining 8641.1s, peak mem 2181MB, user 81894.4s, sys 132.8s, output queue size 1
+progress 45% @07:1000001, elapsed 6468.7s, est remaining 7906.1s, peak mem 2284MB, user 92575.7s, sys 148.7s, output queue size 4
+progress 50% @07:59000001, elapsed 7188.1s, est remaining 7188.1s, peak mem 2399MB, user 102710.3s, sys 164.9s, output queue size 7
+progress 55% @08:36000001, elapsed 7924.1s, est remaining 6483.3s, peak mem 2558MB, user 113685.0s, sys 181.8s, output queue size 2
+progress 60% @08:100000001, elapsed 8673.1s, est remaining 5782.0s, peak mem 2558MB, user 125083.8s, sys 198.1s, output queue size 2
+progress 65% @09:51000001, elapsed 9380.9s, est remaining 5051.3s, peak mem 2558MB, user 135095.7s, sys 214.1s, output queue size 9
+progress 70% @10:33000001, elapsed 9902.5s, est remaining 4243.9s, peak mem 2558MB, user 144006.7s, sys 230.2s, output queue size 0
+progress 75% @10:97000001, elapsed 10298.8s, est remaining 3432.9s, peak mem 2558MB, user 154651.5s, sys 246.4s, output queue size 6
+progress 80% @11:54000001, elapsed 10669.1s, est remaining 2667.3s, peak mem 2787MB, user 164820.9s, sys 262.5s, output queue size 0
+progress 85% @12:9000001, elapsed 11068.8s, est remaining 1953.3s, peak mem 2973MB, user 176700.4s, sys 278.9s, output queue size 22
+progress 90% @12:75000001, elapsed 11422.6s, est remaining 1269.2s, peak mem 2986MB, user 187580.4s, sys 295.4s, output queue size 0
+progress 95% @13:50000001, elapsed 11781.8s, est remaining 620.1s, peak mem 3173MB, user 196883.2s, sys 311.3s, output queue size 3
+progress 100% @13:95000001, elapsed 12079.3s, est remaining 0.0s, peak mem 3173MB, user 206645.6s, sys 326.9s, output queue size 9
+sw version: sentieon-genomics-201808.01
+os version: Linux 3.10.0-957.12.2.el7.x86_64
+cpu vendor: GenuineIntel
+ signature: 00050654
+  features: bfebfbff 7ffefbff
+  extended: d39ffffb 00000018
+  amd bits: 2c100800 00000121
+     brand: Intel(R) Xeon(R) Gold 6144 CPU @ 3.50GHz
+threads: 30 max 32
+algo: Haplotyper
+reads: 195447283
+input file size: 15859438578
+output file size: 25002287891
+contig: 13 intervals 1341303126 bases
+"KMerFactory::allocateBuff": 28378361 calls 179.111 user 7.879 sys 424.058 real
+"assemble": 5077238 calls 10544.103 user 79.999 sys 19411.597 real
+"assemble_addRead": 5077238 calls 167.457 user 1.170 sys 175.599 real
+"assemble_buildGraph": 10437644 calls 4006.175 user 21.904 sys 8113.497 real
+"assemble_computecigar": 7648891 calls 55820.428 user 12.519 sys 91672.358 real
+"assemble_kg_build_calcsize": 10437644 calls 753.228 user 2.559 sys 1717.071 real
+"assemble_kg_build_clear": 12865275 calls 46.116 user 4.253 sys 49.897 real
+"assemble_kg_build_prepare": 20875288 calls 874.477 user 14.416 sys 1621.919 real
+"assemble_kg_build_threading": 8010013 calls 3215.147 user 4.240 sys 6346.127 real
+"assemble_kg_op1": 8010013 calls 632.018 user 2.272 sys 1234.651 real
+"assemble_kg_op2": 8010013 calls 267.232 user 2.129 sys 392.089 real
+"assemble_kg_op3": 8010013 calls 223.812 user 1.898 sys 348.013 real
+"assemble_sg_clean": 7648891 calls 1730.992 user 2.916 sys 2933.127 real
+"assemble_sg_create": 7648891 calls 1877.507 user 3.182 sys 2972.595 real
+"checkGraph": 5077238 calls 33.038 user 1.076 sys 34.770 real
+"findHaplotype": 5077238 calls 56927.676 user 19.780 sys 93506.728 real
+active: 1342656 calls 43.919 user 0.457 sys 66.761 real
+advance: 1341309 calls 184.272 user 10.304 sys 1004.639 real
+annotate: 27167180 calls 1505.893 user 9.819 sys 3186.460 real
+assemble_region: 5077238 calls 67789.630 user 108.702 sys 113252.534 real
+build_variants: 4957228 calls 145.982 user 1.152 sys 155.280 real
+calc: 1342656 calls 82.970 user 0.607 sys 389.142 real
+calc_inactive: 9612978 calls 2348.902 user 3.203 sys 4273.811 real
+calc_region: 4957228 calls 138231.974 user 172.864 sys 246850.652 real
+call_region: 4954258 calls 5742.273 user 112.867 sys 10177.619 real
+clip_region: 14570206 calls 305.843 user 3.864 sys 330.987 real
+done: 1 calls 0.000 user 0.000 sys 1.008 real
+execute: 1 calls 0.000 user 0.000 sys 12079.475 real
+fetch: 1342656 calls 88.258 user 0.449 sys 239.432 real
+fetch_ref: 10955634 calls 63.240 user 7.193 sys 453.809 real
+fetch_region: 9612978 calls 256.175 user 2.665 sys 394.446 real
+fg_assemble: 14 calls 9.566 user 0.000 sys 9.617 real
+idle: 66694 calls 6.768 user 0.117 sys 1409.718 real
+init: 1 calls 0.000 user 0.001 sys 0.056 real
+pairhmm: 5047506 calls 122839.049 user 6.742 sys 206298.019 real
+realign: 5015486 calls 7467.631 user 2.772 sys 13917.508 real
+region: 1342656 calls 205949.912 user 307.514 sys 357318.642 real
+tracker: 1342656 calls 259.242 user 2.524 sys 694.584 real
+trim_region: 5077252 calls 411.371 user 1.506 sys 654.297 real
+overall: 3327905792 mem 207325.168 user 368.274 sys 12109.279 real
+
+real	201m49.355s
+user	3455m25.388s
+sys	6m8.343s

@@ -1,0 +1,3 @@
+[main_samview] truncated file.
+samtools view: error closing "910.sam": -1
+[bam_sort_core] merging from 0 files and 30 in-memory blocks...

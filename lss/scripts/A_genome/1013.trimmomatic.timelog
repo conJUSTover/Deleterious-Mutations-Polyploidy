@@ -1,0 +1,20 @@
+TrimmomaticPE: Started with arguments:
+ -threads 30 1013.1.fq.gz 1013.2.fq.gz 1013.1.paired.fq.gz 1013.1.unpaired.fq.gz 1013.2.paired.fq.gz 1013.2.unpaired.fq.gz ILLUMINACLIP:Adapters.fa:2:30:15 LEADING:28 TRAILING:28 SLIDINGWINDOW:8:28 SLIDINGWINDOW:1:10 MINLEN:65 TOPHRED33
+java.io.FileNotFoundException: /work/LAS/jfw-lab/del_mut_gvcf/A_genome/Adapters.fa (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:536)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+Quality encoding detected as phred33
+Input Read Pairs: 155869475 Both Surviving: 138143357 (88.63%) Forward Only Surviving: 12702673 (8.15%) Reverse Only Surviving: 1655039 (1.06%) Dropped: 3368406 (2.16%)
+TrimmomaticPE: Completed successfully
+
+real	160m13.641s
+user	188m15.007s
+sys	4m26.093s

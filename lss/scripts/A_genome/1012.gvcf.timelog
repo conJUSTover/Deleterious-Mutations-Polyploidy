@@ -1,0 +1,80 @@
+cmdline: /opt/rit/spack-app/linux-rhel7-x86_64/gcc-4.8.5/sentieon-genomics-201808.01-opfuvzrkzgocfdrhlxyjhpl2fvmik6x5/libexec/driver -t 30 -r Ghirsutum_458_v1.0.26chr.fa -i 1012.realign.bam --algo Haplotyper 1012.gVCF --emit_mode gvcf
+This software is licensed to baber@iastate.edu by Sentieon Inc.
+progress 5% @01:69000001, elapsed 435.1s, est remaining 8267.0s, peak mem 1976MB, user 8626.8s, sys 22.5s, output queue size 5
+progress 10% @02:34000001, elapsed 716.6s, est remaining 6449.3s, peak mem 2039MB, user 16576.5s, sys 40.0s, output queue size 3
+progress 15% @03:9000001, elapsed 1014.1s, est remaining 5746.7s, peak mem 2360MB, user 25059.7s, sys 58.7s, output queue size 14
+progress 20% @03:73000001, elapsed 1395.7s, est remaining 5582.8s, peak mem 2497MB, user 34252.0s, sys 79.7s, output queue size 2
+progress 25% @04:34000001, elapsed 1728.7s, est remaining 5186.1s, peak mem 2604MB, user 42515.5s, sys 96.7s, output queue size 50
+progress 30% @05:16000001, elapsed 1957.1s, est remaining 4566.5s, peak mem 2899MB, user 49747.2s, sys 113.2s, output queue size 117
+progress 35% @05:71000001, elapsed 2284.6s, est remaining 4242.8s, peak mem 2952MB, user 57892.2s, sys 133.0s, output queue size 15
+progress 40% @06:48000001, elapsed 2616.2s, est remaining 3924.2s, peak mem 3135MB, user 66076.2s, sys 167.5s, output queue size 8
+progress 45% @06:109000001, elapsed 2902.3s, est remaining 3547.2s, peak mem 3135MB, user 75021.8s, sys 186.2s, output queue size 8
+progress 50% @07:60000001, elapsed 3225.7s, est remaining 3225.7s, peak mem 3163MB, user 82312.4s, sys 203.8s, output queue size 3
+progress 55% @08:14000001, elapsed 3594.8s, est remaining 2941.2s, peak mem 3692MB, user 91768.7s, sys 223.7s, output queue size 21
+progress 60% @08:113000001, elapsed 3938.4s, est remaining 2625.6s, peak mem 3730MB, user 101188.6s, sys 244.9s, output queue size 7
+progress 65% @09:57000001, elapsed 4251.6s, est remaining 2289.3s, peak mem 3730MB, user 109057.0s, sys 264.8s, output queue size 11
+progress 70% @10:37000001, elapsed 4479.4s, est remaining 1919.7s, peak mem 3730MB, user 115160.3s, sys 281.7s, output queue size 3
+progress 75% @10:97000001, elapsed 4786.1s, est remaining 1595.4s, peak mem 3730MB, user 123578.8s, sys 300.2s, output queue size 8
+progress 80% @11:54000001, elapsed 5072.6s, est remaining 1268.1s, peak mem 3756MB, user 130770.7s, sys 318.3s, output queue size 2
+progress 85% @12:7000001, elapsed 5511.4s, est remaining 972.6s, peak mem 4276MB, user 141183.7s, sys 338.1s, output queue size 6
+progress 90% @12:68000001, elapsed 5855.9s, est remaining 650.7s, peak mem 4315MB, user 151141.4s, sys 357.2s, output queue size 23
+progress 95% @13:44000001, elapsed 6147.3s, est remaining 323.5s, peak mem 4349MB, user 158422.2s, sys 374.8s, output queue size 1
+progress 100% @13:95000001, elapsed 6382.8s, est remaining 0.0s, peak mem 4349MB, user 165785.1s, sys 392.7s, output queue size 9
+sw version: sentieon-genomics-201808.01
+os version: Linux 3.10.0-957.12.2.el7.x86_64
+cpu vendor: GenuineIntel
+ signature: 00050654
+  features: bfebfbff 7ffefbff
+  extended: d39ffffb 00000018
+  amd bits: 2c100800 00000121
+     brand: Intel(R) Xeon(R) Gold 6144 CPU @ 3.50GHz
+threads: 30 max 32
+algo: Haplotyper
+reads: 180519423
+input file size: 10328210692
+output file size: 18952436021
+contig: 13 intervals 1341303126 bases
+"KMerFactory::allocateBuff": 27141873 calls 200.632 user 8.176 sys 226.222 real
+"assemble": 5045984 calls 10153.478 user 86.356 sys 11362.229 real
+"assemble_addRead": 5045984 calls 128.947 user 1.522 sys 148.770 real
+"assemble_buildGraph": 10355833 calls 3638.430 user 23.791 sys 4079.967 real
+"assemble_computecigar": 7643446 calls 52200.118 user 59.555 sys 57132.360 real
+"assemble_kg_build_calcsize": 10355833 calls 495.947 user 2.535 sys 547.706 real
+"assemble_kg_build_clear": 12732873 calls 40.797 user 4.443 sys 50.183 real
+"assemble_kg_build_prepare": 20711666 calls 772.007 user 15.359 sys 898.060 real
+"assemble_kg_build_threading": 7978793 calls 3104.780 user 5.530 sys 3476.868 real
+"assemble_kg_op1": 7978793 calls 638.659 user 2.462 sys 707.981 real
+"assemble_kg_op2": 7978793 calls 268.532 user 2.947 sys 303.645 real
+"assemble_kg_op3": 7978793 calls 228.446 user 1.931 sys 253.228 real
+"assemble_sg_clean": 7643446 calls 1693.683 user 2.952 sys 1870.151 real
+"assemble_sg_create": 7643446 calls 1933.991 user 3.618 sys 2148.817 real
+"checkGraph": 5045984 calls 33.937 user 1.184 sys 39.024 real
+"findHaplotype": 5045984 calls 53244.478 user 69.126 sys 58307.702 real
+active: 1342656 calls 26.089 user 0.314 sys 52.100 real
+advance: 1341309 calls 164.536 user 12.200 sys 842.020 real
+annotate: 23426838 calls 1325.604 user 9.530 sys 1479.044 real
+assemble_region: 5045984 calls 63686.011 user 165.364 sys 70001.651 real
+build_variants: 4780843 calls 129.729 user 1.494 sys 161.823 real
+calc: 1342656 calls 58.903 user 0.569 sys 112.934 real
+calc_inactive: 9653692 calls 1586.014 user 3.825 sys 1760.527 real
+calc_region: 4780843 calls 91057.850 user 176.729 sys 102287.639 real
+call_region: 4778528 calls 4624.762 user 96.946 sys 5490.882 real
+clip_region: 14434535 calls 240.387 user 4.239 sys 295.186 real
+done: 1 calls 0.000 user 0.000 sys 1.007 real
+execute: 1 calls 0.000 user 0.000 sys 6382.948 real
+fetch: 1342656 calls 99.705 user 2.126 sys 161.873 real
+fetch_ref: 10996348 calls 59.636 user 7.263 sys 614.243 real
+fetch_region: 9653692 calls 264.327 user 3.915 sys 313.647 real
+fg_assemble: 44 calls 40.767 user 0.099 sys 47.621 real
+idle: 34175 calls 3.757 user 0.079 sys 671.009 real
+init: 1 calls 0.000 user 0.001 sys 0.006 real
+pairhmm: 4911738 calls 89999.453 user 13.612 sys 97926.483 real
+realign: 4895761 calls 5090.321 user 5.338 sys 5590.716 real
+region: 1342656 calls 165186.087 user 354.915 sys 187983.592 real
+tracker: 1342656 calls 214.212 user 2.012 sys 336.954 real
+trim_region: 5046028 calls 399.827 user 1.771 sys 442.141 real
+overall: 4560437248 mem 166458.281 user 429.186 sys 6384.834 real
+
+real	106m25.005s
+user	2774m18.416s
+sys	7m9.349s

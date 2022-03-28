@@ -1,0 +1,67 @@
+cmdline: /opt/rit/spack-app/linux-rhel7-x86_64/gcc-4.8.5/sentieon-genomics-201808.01-opfuvzrkzgocfdrhlxyjhpl2fvmik6x5/libexec/driver -t 30 -i G3-83.sort.bam --algo Dedup --rmdup --score_info G3-83.score --metrics G3-83.dedup.metric G3-83.dedup.bam
+This software is licensed to baber@iastate.edu by Sentieon Inc.
+progress 5% @01:67000001, elapsed 13.3s, est remaining 252.0s, peak mem 1576MB, user 298.1s, sys 3.5s, output queue size 54
+progress 10% @02:16000001, elapsed 23.8s, est remaining 214.6s, peak mem 1673MB, user 606.3s, sys 6.5s, output queue size 122
+progress 15% @03:7000001, elapsed 35.8s, est remaining 202.9s, peak mem 1715MB, user 950.0s, sys 10.1s, output queue size 17
+progress 20% @03:80000001, elapsed 45.1s, est remaining 180.2s, peak mem 1820MB, user 1242.2s, sys 12.7s, output queue size 41
+progress 25% @04:34000001, elapsed 55.6s, est remaining 166.9s, peak mem 2027MB, user 1555.3s, sys 15.7s, output queue size 109
+progress 30% @05:16000001, elapsed 66.1s, est remaining 154.2s, peak mem 2231MB, user 1877.4s, sys 18.4s, output queue size 17
+progress 35% @05:84000001, elapsed 78.0s, est remaining 144.9s, peak mem 2231MB, user 2196.3s, sys 21.1s, output queue size 76
+progress 40% @06:52000001, elapsed 89.4s, est remaining 134.2s, peak mem 2231MB, user 2544.1s, sys 23.9s, output queue size 83
+progress 45% @07:1000001, elapsed 100.3s, est remaining 122.6s, peak mem 2373MB, user 2854.0s, sys 26.6s, output queue size 151
+progress 50% @07:68000001, elapsed 111.1s, est remaining 111.1s, peak mem 2373MB, user 3196.9s, sys 29.5s, output queue size 11
+progress 55% @08:42000001, elapsed 122.6s, est remaining 100.3s, peak mem 2669MB, user 3511.1s, sys 32.0s, output queue size 59
+progress 60% @08:103000001, elapsed 133.4s, est remaining 88.9s, peak mem 2723MB, user 3799.8s, sys 34.4s, output queue size 126
+progress 65% @09:50000001, elapsed 143.4s, est remaining 77.2s, peak mem 2818MB, user 4154.9s, sys 37.3s, output queue size 47
+progress 70% @10:31000001, elapsed 154.3s, est remaining 66.1s, peak mem 2818MB, user 4465.8s, sys 39.8s, output queue size 50
+progress 75% @10:101000001, elapsed 165.1s, est remaining 55.0s, peak mem 2818MB, user 4764.4s, sys 42.1s, output queue size 5
+progress 80% @11:64000001, elapsed 175.3s, est remaining 43.8s, peak mem 2818MB, user 5073.1s, sys 44.8s, output queue size 29
+progress 85% @12:1, elapsed 185.8s, est remaining 32.8s, peak mem 2818MB, user 5370.7s, sys 47.2s, output queue size 97
+progress 90% @12:77000001, elapsed 195.9s, est remaining 21.8s, peak mem 2818MB, user 5646.8s, sys 49.4s, output queue size 164
+progress 95% @13:35000001, elapsed 205.8s, est remaining 10.8s, peak mem 2818MB, user 5989.9s, sys 52.7s, output queue size 36
+progress 100% @13:2000001, elapsed 223.8s, est remaining 0.0s, peak mem 2818MB, user 6282.1s, sys 55.9s, output queue size 103
+library :
+chimeric_paired 84034998
+duped 63371662
+duped_chimeric_paired 13375372
+duped_paired 51983082
+duped_unpaired 11388580
+optical_dup 2582860
+paired 257401100
+reads 273985281
+unpaired 16584181
+optical dup clusters 2428808, maxdup 12, total optical dup pairs 2582860
+sw version: sentieon-genomics-201808.01
+os version: Linux 3.10.0-1062.9.1.el7.x86_64
+cpu vendor: GenuineIntel
+ signature: 00050657
+  features: bfebfbff 7ffefbff
+  extended: d39ffffb 00000818
+  amd bits: 2c100800 00000121
+     brand: Intel(R) Xeon(R) Platinum 9242 CPU @ 2.30GHz
+threads: 30 max 192
+algo: Dedup
+reads: 273985281
+input file size: 21369275936
+output file size: 17796512269
+contig: 14 intervals 1341303126 bases
+MateInfoByVcf::buildInfoMap: 1205337 calls 18.873 user 0.366 sys 19.836 real
+MateInfoByVcf::load: 1205337 calls 2171.859 user 5.852 sys 2182.578 real
+MateInfoByVcf::parse_events: 1205337 calls 2122.717 user 3.796 sys 2133.393 real
+advance: 1341309 calls 627.836 user 9.446 sys 653.231 real
+calc: 1341309 calls 3250.884 user 34.304 sys 3327.706 real
+done: 1 calls 0.000 user 0.000 sys 1.040 real
+exec_no_coor: 1 calls 0.000 user 0.000 sys 0.000 real
+execute: 1 calls 0.000 user 0.000 sys 224.971 real
+fetch: 1341309 calls 136.106 user 0.753 sys 138.699 real
+find_pairEnds: 1205337 calls 193.228 user 0.698 sys 198.667 real
+idle: 128280 calls 5.741 user 0.810 sys 332.650 real
+init: 1 calls 0.000 user 0.001 sys 0.015 real
+markDup: 1205337 calls 1077.447 user 3.107 sys 1105.892 real
+vcfadvance: 1205337 calls 16.500 user 2.162 sys 18.821 real
+write: 1341309 calls 2155.546 user 29.945 sys 2201.935 real
+overall: 2955927552 mem 6320.026 user 83.385 sys 226.087 real
+
+real	3m46.436s
+user	105m20.051s
+sys	1m23.557s

@@ -1,0 +1,65 @@
+cmdline: /opt/rit/spack-app/linux-rhel7-x86_64/gcc-4.8.5/sentieon-genomics-201808.01-opfuvzrkzgocfdrhlxyjhpl2fvmik6x5/libexec/driver -t 30 -r Ghirsutum_458_v1.0.26chr.fa -i 911.dedup.bam --algo Realigner 911.realign.bam
+This software is licensed to baber@iastate.edu by Sentieon Inc.
+progress 5% @01:67000001, elapsed 54.9s, est remaining 1043.0s, peak mem 1346MB, user 1125.7s, sys 14.0s, output queue size 54
+progress 10% @02:34000001, elapsed 206.2s, est remaining 1856.2s, peak mem 1383MB, user 2143.7s, sys 30.2s, output queue size 6
+progress 15% @03:11000001, elapsed 245.2s, est remaining 1389.4s, peak mem 1531MB, user 3198.3s, sys 39.3s, output queue size 17
+progress 20% @03:73000001, elapsed 281.7s, est remaining 1126.7s, peak mem 1850MB, user 4162.8s, sys 46.4s, output queue size 41
+progress 25% @04:37000001, elapsed 438.7s, est remaining 1316.0s, peak mem 1962MB, user 5071.2s, sys 55.5s, output queue size 109
+progress 30% @05:27000001, elapsed 466.4s, est remaining 1088.2s, peak mem 2208MB, user 5856.5s, sys 64.0s, output queue size 176
+progress 35% @05:81000001, elapsed 507.5s, est remaining 942.4s, peak mem 2517MB, user 6924.2s, sys 75.9s, output queue size 76
+progress 40% @06:43000001, elapsed 540.9s, est remaining 811.3s, peak mem 2517MB, user 7863.5s, sys 90.3s, output queue size 7
+progress 45% @06:115000001, elapsed 691.4s, est remaining 845.1s, peak mem 2517MB, user 8773.9s, sys 98.0s, output queue size 43
+progress 50% @07:43000001, elapsed 722.7s, est remaining 722.7s, peak mem 2517MB, user 9589.4s, sys 105.6s, output queue size 20
+progress 55% @08:52000001, elapsed 766.0s, est remaining 626.7s, peak mem 2517MB, user 10619.6s, sys 112.7s, output queue size 59
+progress 60% @08:117000001, elapsed 923.9s, est remaining 615.9s, peak mem 2670MB, user 11725.1s, sys 121.9s, output queue size 126
+progress 65% @09:48000001, elapsed 959.6s, est remaining 516.7s, peak mem 2681MB, user 12707.0s, sys 134.8s, output queue size 11
+progress 70% @10:40000001, elapsed 986.6s, est remaining 422.8s, peak mem 2681MB, user 13469.8s, sys 143.7s, output queue size 10
+progress 75% @10:80000001, elapsed 1017.4s, est remaining 339.1s, peak mem 2681MB, user 14372.9s, sys 149.6s, output queue size 19
+progress 80% @11:51000001, elapsed 1169.1s, est remaining 292.3s, peak mem 2681MB, user 15144.8s, sys 157.0s, output queue size 29
+progress 85% @12:13000001, elapsed 1202.2s, est remaining 212.1s, peak mem 2681MB, user 16067.0s, sys 164.4s, output queue size 97
+progress 90% @12:77000001, elapsed 1232.5s, est remaining 136.9s, peak mem 2681MB, user 17006.2s, sys 171.7s, output queue size 25
+progress 95% @13:40000001, elapsed 1393.5s, est remaining 73.3s, peak mem 3022MB, user 17871.3s, sys 180.8s, output queue size 84
+progress 100% @13:2000001, elapsed 1424.1s, est remaining 0.0s, peak mem 3022MB, user 18778.8s, sys 195.9s, output queue size 103
+sw version: sentieon-genomics-201808.01
+os version: Linux 3.10.0-957.21.3.el7.x86_64
+cpu vendor: GenuineIntel
+ signature: 00050654
+  features: bfebfbff 7ffefbff
+  extended: d39ffffb 00000018
+  amd bits: 2c100800 00000121
+     brand: Intel(R) Xeon(R) Gold 6152 CPU @ 2.10GHz
+threads: 30 max 176
+algo: Realigner
+reads: 161223345
+input file size: 12199658207
+output file size: 12652288114
+contig: 14 intervals 1341303126 bases
+advance: 1341309 calls 402.107 user 24.530 sys 1772.006 real
+cleanAlignedReadMem: 1569961 calls 0.944 user 1.537 sys 2.509 real
+cleanRead: 1568109 calls 8959.050 user 33.904 sys 19861.529 real
+cleanReads_check: 1568109 calls 0.780 user 1.428 sys 2.272 real
+cleanReads_fetchRef: 1568094 calls 8.544 user 1.732 sys 130.600 real
+cleanReads_findBestCon: 1566847 calls 7511.130 user 6.185 sys 14799.208 real
+cleanReads_findBestConChunk: 5339 calls 6562.771 user 4.878 sys 12480.544 real
+cleanReads_findBestConCoop: 1247 calls 1290.104 user 1.284 sys 4503.329 real
+cleanReads_generateAltConByKnown: 1568094 calls 0.881 user 1.468 sys 2.475 real
+cleanReads_generateAltConByRead: 1568094 calls 79.438 user 1.756 sys 86.954 real
+cleanReads_getCoveredByRead: 1568094 calls 4.784 user 1.539 sys 6.521 real
+cleanReads_getRange: 1568094 calls 2.479 user 1.518 sys 4.082 real
+cleanReads_realignReads: 1568094 calls 31.779 user 2.190 sys 41.582 real
+done: 1 calls 0.000 user 0.000 sys 1.133 real
+execCreateTarget: 1341309 calls 184.135 user 17.824 sys 597.523 real
+execTargetAlign: 1341309 calls 18049.183 user 138.767 sys 39865.287 real
+exec_no_coor: 1 calls 0.000 user 0.000 sys 0.000 real
+execute: 1 calls 0.000 user 0.000 sys 1425.679 real
+idle: 147852 calls 6.608 user 0.635 sys 309.434 real
+init: 1 calls 0.000 user 0.002 sys 0.011 real
+outputCleanedReads: 1570016 calls 3039.448 user 29.958 sys 6575.911 real
+readfetch: 1341309 calls 30.338 user 2.779 sys 37.853 real
+separateReadsToClean: 1570124 calls 18.360 user 2.659 sys 142.564 real
+vcfadvance: 1341309 calls 0.733 user 1.283 sys 2.057 real
+overall: 3168817152 mem 18832.420 user 229.452 sys 1427.468 real
+
+real	23m47.824s
+user	313m52.481s
+sys	3m49.738s

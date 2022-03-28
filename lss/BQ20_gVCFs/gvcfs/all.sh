@@ -1,0 +1,16 @@
+mv 101.lst A2.lst
+mv 10.lst AD1W.lst
+mv 11.lst AD1L1.lst
+mv 12.lst AD1L2.lst
+mv 13.lst AD1D.lst
+mv 21.lst AD2L1.lst
+mv 22.lst AD2L2.lst
+mv 23.lst AD2D.lst
+mv 30.lst AD3.lst
+mv 40.lst AD4.lst
+mv 50.lst AD5.lst
+mv 60.lst AD6.lst
+mv 70.lst AD7.lst
+mv 80.lst D5.lst
+mv 90.lst A1W.lst
+mv 91.lst A1D.lst
